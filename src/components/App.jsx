@@ -19,7 +19,7 @@ function App() {
         };
       } else if (name === "lName") {
         return {
-          fName: prevValue.lName,
+          fName: prevValue.fName,
           lName: value,
           email: prevValue.email
         };
